@@ -1,5 +1,5 @@
-
-<script src="../dist/mp4-p2p-engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cdnbye-mp4@latest"></script>
+<!--<script src="../dist/mp4-p2p-engine.min.js"></script>-->
 <video id="video" controls></video>
 <p id="version"></p>
 <h3>download info:</h3>
@@ -11,7 +11,7 @@
     var mp4 = new P2PEngineMp4(video, {
         autoplay: true,
         p2pConfig: {
-            // logLevel: 'debug',
+            logLevel: 'debug',
         }
     });
     mp4.loadSource('https://webtorrent.io/torrents/Sintel/Sintel.mp4');

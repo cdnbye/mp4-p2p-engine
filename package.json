@@ -1,5 +1,5 @@
 {
-  "name": "mp4-p2p-engine",
+  "name": "cdnbye-mp4",
   "version": "0.0.1",
   "description": "Save Your Bandwidth using WebRTC.",
   "main": "./dist/mp4-p2p-engine.min.js",

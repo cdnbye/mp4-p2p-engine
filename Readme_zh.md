@@ -9,6 +9,8 @@
   <a href="https://github.com/cdnbye/mp4-p2p-engine/tree/master/dist"><img src="https://badge-size.herokuapp.com/cdnbye/mp4-p2p-engine/master/dist/mp4-p2p-engine.min.js?compression=gzip&style=flat-square" alt="size"></a>
 </p>
 
+mp4-p2p-engine 是一个 "简化版的Webtorrent"，只支持MP4格式，更小的体积，不需要磁力链接，极简的API，更高效的节点调度，简单而快乐！
+
 该插件的优势如下：
 - 浏览器原生支持，不需要安装任何插件，采用仿BT算法，在线人数越多效果越好
 - 支持基于MP4流媒体协议的点播场景

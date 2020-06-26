@@ -8,9 +8,11 @@
   <a href="https://github.com/cdnbye/mp4-p2p-engine/tree/master/dist"><img src="https://badge-size.herokuapp.com/cdnbye/mp4-p2p-engine/master/dist/mp4-p2p-engine.min.js?compression=gzip&style=flat-square" alt="size"></a>
 </p>
 
+mp4-p2p-engine is a "Simplified Webtorrent", only supports MP4, smaller size, no magnetic link, easier integrating, more efficient peers scheduling!
+
 ## Features
 - WebRTC data channels for lightweight peer-to-peer communication with no plugins
-- Support MP4 stream
+- Support MP4 streaming
 - Seamlessly fallback to normal server usage if a browser doesn't support WebRTC
 - Highly configurable for users
 - Support most popular HTML5 players such as video.js、Clappr、Flowplayer
