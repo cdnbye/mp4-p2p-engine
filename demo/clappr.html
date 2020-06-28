@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>CDNBye Clappr Demo</title>
-    <script src="https://cdn.jsdelivr.net/npm/cdnbye-mp4@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/clappr@0.3.13/dist/clappr.min.js"></script>
-    <!--<script src="https://cdn.jsdelivr.net/npm/cdnbye-mp4@latest"></script>-->
-
-    <script src="../dist/clappr-plugin-mp4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cdnbye-mp4@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cdnbye-mp4@latest/dist/clappr-plugin-mp4.min.js"></script>
 </head>
 <body>
 <div id="player"></div>
 <script>
     var player = new Clappr.Player(
         {
-            source: "https://mp4.cdnbye.com/sv/2dbdf890-16bc25ce898/2dbdf890-16bc25ce898.mp4",
+            source: "https://webtorrent.io/torrents/Sintel/Sintel.mp4",
             parentId: "#player",
-            autoPlay: true,
+            // autoPlay: true,
             plugins: {
                 playback: [CDNByeClapprPlugin]
             },
