@@ -10,10 +10,14 @@
 </head>
 <body>
 <video id="player" class="video-js vjs-default-skin" height="360" width="640" controls preload="none">
-    <source src="https://webtorrent.io/torrents/Sintel/Sintel.mp4"/>
 </video>
 <script>
     var player = videojs('#player', {
+        sources:[
+            {
+                src: 'https://webtorrent.io/torrents/Sintel/Sintel.mp4',
+            }
+        ],
         html5: {
             mp4Config: {
                 p2pConfig: {
@@ -22,6 +26,10 @@
                 }
             }
         }
+    }, function onPlayerReady() {
+
+        this.play();
+
     });
 </script>
 </body>
