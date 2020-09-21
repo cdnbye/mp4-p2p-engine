@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/cdnbye-mp4"><img src="https://img.shields.io/npm/v/cdnbye-mp4.svg?style=flat" alt="npm"></a>
   <a href="https://www.jsdelivr.com/package/npm/cdnbye-mp4"><img src="https://data.jsdelivr.com/v1/package/npm/cdnbye-mp4/badge" alt="jsdelivr"></a>
-  <a href="https://github.com/cdnbye/mp4-p2p-engine/tree/master/dist"><img src="https://badge-size.herokuapp.com/cdnbye/mp4-p2p-engine/master/dist/mp4-p2p-engine.min.js?compression=gzip&style=flat-square" alt="size"></a>
 </p>
 
 mp4-p2p-engine is a "Simplified Webtorrent", only supports MP4, smaller size, no magnetic link, easier integrating, more efficient peers scheduling!

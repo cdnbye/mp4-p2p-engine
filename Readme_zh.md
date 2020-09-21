@@ -6,7 +6,6 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/cdnbye-mp4"><img src="https://img.shields.io/npm/v/cdnbye-mp4.svg?style=flat" alt="npm"></a>
   <a href="https://www.jsdelivr.com/package/npm/cdnbye-mp4"><img src="https://data.jsdelivr.com/v1/package/npm/cdnbye-mp4/badge" alt="jsdelivr"></a>
-  <a href="https://github.com/cdnbye/mp4-p2p-engine/tree/master/dist"><img src="https://badge-size.herokuapp.com/cdnbye/mp4-p2p-engine/master/dist/mp4-p2p-engine.min.js?compression=gzip&style=flat-square" alt="size"></a>
 </p>
 
 mp4-p2p-engine 是一个 "简化版的Webtorrent"，只支持MP4格式，更小的体积，不需要磁力链接，极简的API，更高效的节点调度，简单而快乐！
