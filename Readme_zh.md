@@ -23,13 +23,18 @@ mp4-p2p-engine 是一个 "简化版的Webtorrent"，只支持MP4格式，更小�
 将[quick-start.html](demo/quick-start.html)拷贝到您的网页中并运行。再打开另一个相同的网页。见证奇迹的时候到了！您已在两个网页之间建立了一个P2P连接，在不安装任何插件的情况下。如果在这个频道中（一个mpd标识了一个频道）没有其它参与者，那么您打开的第一个网页将作为种子为第二个网页提供数据。
 
 ## 浏览器支持情况
-由于WebRTC已成为HTML5标准，目前大部分主流浏览器都已经支持。CDNBye的浏览器兼容性取决于WebRTC和MSE。需要注意的是iOS版Safari不支持MediaSource API。
+由于WebRTC已成为HTML5标准，目前大部分主流浏览器都已经支持。CDNBye的浏览器兼容性取决于WebRTC和[VideoStream](https://github.com/jhiesey/videostream)。需要注意的是iOS版Safari不支持MediaSource API。
 
 兼容性|Chrome | Firefox | macOS Safari| 安卓微信/QQ | Opera | Edge | IE | iOS Safari | 
 :-: | :-: | :-: | :-: | :-: | :-: | :-:| :-:| :-:
 WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ✔ |
-MSE | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
-CDNBye | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ❌ | 
+VideoStream | ✔ | ❌ | ❌ | ✔ | ✔ | ✔ | ✔ | ❌ |
+CDNBye | ✔ | ❌ | ❌ | ✔ | ✔ | ✔ | ❌ | ❌ | 
+
+## 准备工作
+如果MP4地址与网页不在同一个域，请确保流媒体服务器已做好跨域配置。
+<br>
+点击[这里](https://www.cdnbye.com/cn/views/mp4/usage.html#prepare)了解详情。
 
 ## 集成
 通过script标签引入最新版本：
@@ -41,11 +46,12 @@ CDNBye | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ❌ |
 参见 [API.md](https://www.cdnbye.com/cn/views/mp4/API.html)
 
 ## 后台管理系统
-在接入P2P插件后，访问`https://oms.cdnbye.com`，注册并绑定域名，即可查看该域名的P2P流量、在线人数、用户地理分布等信息。
+在接入P2P插件后，访问`https://www.cdnbye.com/oms`，注册并绑定域名，即可查看该域名的P2P流量、在线人数、用户地理分布等信息。
 
 ## 相关项目
 - [hlsjs-p2p-engine](https://gitee.com/cdnbye/hlsjs-p2p-engine) - HLS协议的Web端P2P流媒体方案。
 - [dashjs-p2p-engine](https://github.com/cdnbye/dashjs-p2p-engine) - MPEG-dash协议的Web端P2P流媒体方案。
+- [shaka-p2p-engine](https://github.com/cdnbye/shaka-p2p-engine) - 同时支持HLS和Mpeg-Dash格式。
 
 ## FAQ
 我们收集了一些[常见问题](https://www.cdnbye.com/cn/views/FAQ.html)。在报告issue之前请先查看一下。
