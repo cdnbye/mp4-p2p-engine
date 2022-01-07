@@ -1,6 +1,6 @@
 **[English](README.md) | 简体中文**
 
-<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://cdnbye.oss-cn-beijing.aliyuncs.com/pic/cdnbye.png" alt="cdnbye logo"></a></h1>
+<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://swarmcloud.net/logo.png" alt="cdnbye logo"></a></h1>
 <h4 align="center">Save Your Bandwidth using WebRTC.</h4>
 <h4 align="center">视频网站省流量&加速神器.</h4>
 <p align="center">
@@ -8,6 +8,8 @@
   <a href="https://www.jsdelivr.com/package/npm/cdnbye-mp4"><img src="https://data.jsdelivr.com/v1/package/npm/cdnbye-mp4/badge" alt="jsdelivr"></a>
 </p>
 
+该项目处于实验节点，请考虑使用 [这个项目](https://github.com/swarm-cloud/mp4-sw-p2p-engine)替代。
+<br>
 mp4-p2p-engine 是一个 "简化版的Webtorrent"，只支持MP4格式，更小的体积，不需要磁力链接，极简的API，更高效的节点调度，简单而快乐！
 
 ## 优势

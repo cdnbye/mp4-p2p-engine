@@ -1,12 +1,14 @@
 **English | [简体中文](Readme_zh.md)**
 
-<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://cdnbye.oss-cn-beijing.aliyuncs.com/pic/cdnbye.png" alt="cdnbye logo"></a></h1>
+<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://swarmcloud.net/logo.png" alt="cdnbye logo"></a></h1>
 <h4 align="center">Let your viewers become your unlimitedly scalable CDN.</h4>
 <p align="center">
   <a href="https://www.npmjs.com/package/cdnbye-mp4"><img src="https://img.shields.io/npm/v/cdnbye-mp4.svg?style=flat" alt="npm"></a>
   <a href="https://www.jsdelivr.com/package/npm/cdnbye-mp4"><img src="https://data.jsdelivr.com/v1/package/npm/cdnbye-mp4/badge" alt="jsdelivr"></a>
 </p>
 
+This projected is not production ready, please consider using [this](https://github.com/swarm-cloud/mp4-sw-p2p-engine).
+<br>
 mp4-p2p-engine is a "Simplified Webtorrent", only supports MP4, smaller size, no magnetic link, easier integrating, more efficient peers scheduling!
 
 ## Features
